@@ -1,0 +1,35 @@
+{
+  "name": "offline-platform-demo",
+  "homepage": "https://github.com/reelyactive/offline-platform-demo/",
+  "author": "reelyActive <webdev@reelyactive.com>",
+  "description": "The full reelyActive open source platform without dependency on Internet connectivity.  We believe in an open Internet of Things.",
+  "keywords": [
+    "reelyActive",
+    "IoT",
+    "RTLS",
+    "platform"
+  ],
+  "version": "0.1.0",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "main": "./server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reelyactive/offline-platform-demo.git"
+  },
+  "dependencies": {
+    "express": ">=4.0.0",
+    "cors": ">=2.0.0",
+    "hlc-server": ">=0.5.12",
+    "serialport": ">=4.0.0"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/reelyactive/offline-platform-demo/issues"
+  },
+  "contributors": [
+    { "name": "Jeffrey Dungen" }
+  ],
+  "license": "MIT"
+}
