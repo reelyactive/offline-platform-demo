@@ -1,0 +1,3 @@
+[submodule "sniffypedia"]
+	path = sniffypedia
+	url = https://github.com/reelyactive/sniffypedia
