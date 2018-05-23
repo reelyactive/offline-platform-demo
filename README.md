@@ -1,7 +1,7 @@
 offline-platform-demo
 =====================
 
-The full reelyActive open source platform _without_ dependency on Internet connectivity.  Combines our [hlc-server](https://github.com/reelyactive/hlc-server) with a local copy of [Sniffypedia](https://sniffypedia.org) for full-featured standalone demos that actually work:
+The full reelyActive open source platform _without_ dependency on Internet connectivity.  Combines our [hlc-server](https://github.com/reelyactive/hlc-server) and [json-silo](https://github.com/reelyactive/json-silo) with a local copy of [Sniffypedia](https://sniffypedia.org) for full-featured standalone demos that actually work:
 - at conferences with unreliable WiFi connectivity
 - during flight on commercial aircraft (when permitted)
 - deep in the Canadian boreal forest (it's plausiBLE that one could be tracking [barnowls](https://github.com/reelyactive/barnowl#barnowl), [beavers](https://github.com/reelyactive/beaver#beaver) and [chickadees](https://github.com/reelyactive/chickadee#chickadee)...)
@@ -10,7 +10,7 @@ The full reelyActive open source platform _without_ dependency on Internet conne
 Installation (with git)
 -----------------------
 
-Installion with git is easy.  Without git, see our tutorial.
+Installion with git is easy.  Without git, see [our tutorial](https://reelyactive.github.io/install-an-offline-demo.html).
 
 From the command line, browse to the folder in which you intend to copy the code, then run:
 
@@ -26,7 +26,7 @@ From the command line, from the offline-platform-demo folder, run:
 
     node server
 
-Then browse to [localhost:3001](http://localhost:3001)
+Then browse to [localhost:3001](http://localhost:3001) for the dashboard, APIs and web applications, and browse to [localhost:3002](http://localhost:3002) to [create and associate stories](https://reelyactive.github.io/create-and-associate-stories.html) with wireless devices.
 
 
 License
