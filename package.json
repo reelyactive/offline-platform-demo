@@ -9,7 +9,7 @@
     "RTLS",
     "platform"
   ],
-  "version": "0.2.1",
+  "version": "0.2.2",
   "engines": {
     "node": ">=0.10.0"
   },
@@ -22,7 +22,7 @@
     "express": ">=4.0.0",
     "cors": ">=2.0.0",
     "hlc-server": "^0.5.21",
-    "json-silo": ">=0.5.2",
+    "json-silo": "^0.5.2",
     "serialport": ">=6.0.0"
   },
   "devDependencies": {},
